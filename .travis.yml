@@ -2,7 +2,7 @@ os: linux
 dist: trusty
 compiler: gcc
 language: cpp
-sudo: false
+sudo: required
 cache:
   apt: true
   directories:
